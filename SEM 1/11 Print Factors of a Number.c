@@ -21,13 +21,16 @@ int main() {
     int num;
     scanf("%d", &num);
     
-    if (num <= 100) {
-        for (int i = 1; i < num+1; i++) {
-            if (num%i == 0) {
-                printf("%d ", i);
-                }
+    int found = 0;
+    for (int i = 1; i < num+1; i++) {
+        if (num%i == 0) {
+            if (found == 1) {
+                printf(" ", i);
             }
+            printf("%d", i);
+            found = 1;
         }
+    }
     
     return 0;
 }
