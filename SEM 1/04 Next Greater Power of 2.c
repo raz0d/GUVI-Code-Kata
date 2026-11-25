@@ -1,5 +1,6 @@
 /*
 4. Next Greater Power of 2
+
 Question:
 Given a number N, find its next immediate greater power of 2(i.e 2^1, 2^2, 2^3...).
 

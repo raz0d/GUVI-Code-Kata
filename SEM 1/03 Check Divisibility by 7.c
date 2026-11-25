@@ -1,5 +1,6 @@
 /*
 3. Check Divisibility by 7
+
 Problem Statement:
 Given a number N, print yes if the number is a multiple of 7 else print no.
 

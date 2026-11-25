@@ -1,5 +1,6 @@
 /*
 2. Prime Number Check
+
 Problem Statement:
 Given a number N, check whether it is prime or not. Print 'yes' if it is prime else print 'no'.
 
